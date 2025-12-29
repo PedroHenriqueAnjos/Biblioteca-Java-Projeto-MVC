@@ -7,17 +7,21 @@ Permite cadastrar e listar usuários e livros através de uma **interface de con
 
 ## 🏗 Estrutura do Projeto
 
-src/
-├─ model/
-│ ├─ User.java # Classe que representa os usuários
-│ └─ Book.java # Classe que representa os livros
-├─ service/
-│ └─ Library.java # Lógica de negócio: adicionar/listar usuários e livros
-└─ view/
-└─ Main.java # Interface de console interativa
+Biblioteca-Java-MVC/
+│
+├── src/
+│   ├── model/
+│   │   ├── User.java       # Classe que representa os usuários
+│   │   └── Book.java       # Classe que representa os livros
+│   │
+│   ├── service/
+│   │   └── Library.java    # Lógica de negócio: adicionar/listar usuários e livros
+│   │
+│   └── view/
+│       └── Main.java       # Interface de console interativa
+│
+└── README.md               # Documentação do projeto
 
-yaml
-Copiar código
 
 **Organização por pacotes:**  
 
